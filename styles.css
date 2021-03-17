@@ -1,0 +1,34 @@
+body {
+  background: cornsilk;
+  font-family: "Times New Roman", Times, serif;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  font-style: italic;
+  font-weight: lighter;
+}
+div {
+  border-style: solid;
+  padding: 1em;
+}
+.box-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+/* img {
+  height: auto;
+} */
+.box-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+.box-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
