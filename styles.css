@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: cornsilk;
   font-family: "Times New Roman", Times, serif;
@@ -10,25 +14,30 @@ h2 {
   font-style: italic;
   font-weight: lighter;
 }
-div {
+article {
+  /* display: block; */
   border-style: solid;
   padding: 1em;
 }
-.box-1 {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
-/* img {
-  height: auto;
-} */
-.box-2 {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
+.sec1 {
+  display: block;
+  width: 25%;
 }
-.box-3 {
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
+.sec2 {
+  display: block;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: -83%;
+}
+.sec3 {
+  display: block;
+  width: 25%;
+  margin-left: 75%;
+  margin-top: -99.4%;
 }
