@@ -23,23 +23,55 @@ article {
 }
 .img {
   width: 65%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+}
+.imgfinn {
+  width: 65%;
+  float: none;
 }
 .box {
   display: flex;
   flex-direction: row;
+}
+.floated {
+  float: right;
+  width: 30%;
 }
 .sec1 {
   width: 25%;
 }
 .sec2 {
   width: 50%;
+  float: right;
 }
 .sec3 {
   width: 25%;
 }
 .sec4 {
   width: 75%;
+  border-style: solid;
+}
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 0%;
+  margin: 0%;
+  font-size: 30px;
+  font-weight: bold;
+}
+.weather {
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2%;
+  height: 100px;
+}
+.politics {
+  background-color: rgb(112, 155, 130);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2%;
+  height: 100px;
 }
