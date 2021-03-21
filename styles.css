@@ -75,3 +75,27 @@ article {
   padding-left: 2%;
   height: 100px;
 }
+.sports {
+  background-color: salmon;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2%;
+  height: 100px;
+}
+.local {
+  background-color: skyblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2%;
+  height: 100px;
+}
+.tech {
+  background-color: violet;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2%;
+  height: 100px;
+}
