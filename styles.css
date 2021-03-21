@@ -18,11 +18,13 @@ h2 {
   justify-content: center;
 }
 article {
-  border-style: solid;
+  border: 1px solid darkgray;
   padding: 1em;
 }
 .img {
   width: 65%;
+  margin: 0 auto;
+  display: block;
 }
 .imgfinn {
   width: 50%;
@@ -50,7 +52,6 @@ article {
 }
 .sec4 {
   width: 75%;
-  border-style: solid;
 }
 .section {
   display: flex;
