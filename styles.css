@@ -54,10 +54,12 @@ article {
   display: flex;
   flex-direction: column;
   align-items: stretch;
-  padding: 0%;
-  margin: 0%;
+  padding: 0;
+  margin: 0;
   font-size: 30px;
   font-weight: bold;
+  list-style: none;
+  height: 100%;
 }
 .weather {
   background-color: aquamarine;
@@ -65,7 +67,8 @@ article {
   flex-direction: column;
   justify-content: center;
   padding-left: 2%;
-  height: 100px;
+  /* height: 100px; */
+  flex: 1;
 }
 .politics {
   background-color: rgb(112, 155, 130);
@@ -73,7 +76,7 @@ article {
   flex-direction: column;
   justify-content: center;
   padding-left: 2%;
-  height: 100px;
+  flex: 1;
 }
 .sports {
   background-color: salmon;
@@ -81,7 +84,7 @@ article {
   flex-direction: column;
   justify-content: center;
   padding-left: 2%;
-  height: 100px;
+  flex: 1;
 }
 .local {
   background-color: skyblue;
@@ -89,7 +92,7 @@ article {
   flex-direction: column;
   justify-content: center;
   padding-left: 2%;
-  height: 100px;
+  flex: 1;
 }
 .tech {
   background-color: violet;
@@ -97,5 +100,5 @@ article {
   flex-direction: column;
   justify-content: center;
   padding-left: 2%;
-  height: 100px;
+  flex: 1;
 }
